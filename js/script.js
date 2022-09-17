@@ -43,7 +43,7 @@ function ej3() {
 }
 
 //Agregue el pedido del nombre, muestre su nombre y edad con un console.warn
-function edad() {
+function edad_nom() {
     //hace visible la imagen del ejercicio correspondiente
     var path_image = "./img/ej4.jpg";
     document.getElementById("ej1").src = path_image;
