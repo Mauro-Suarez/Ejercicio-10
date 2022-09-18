@@ -54,7 +54,7 @@ function edad_nom() {
         var age = prompt("¿Cual es tu edad?");
         //pregunta si cancela
         if (age == null) {
-            alert('Salió del ejercicio.')
+            alert('Salió del ejercicio.');
             console.log("Salió.");
         }
         //pregunta si ingreso un numero
@@ -64,7 +64,7 @@ function edad_nom() {
             var name1 = prompt("¿Cual es tu nombre?");
             //pregunta si cancela
             if (name1 == null) {
-                alert('Salió del ejercicio.')
+                alert('Salió del ejercicio.');
                 console.log("Salió.");
             }
             //muestra en consola nombre y edad solo si da aceptar
@@ -106,7 +106,7 @@ function entrada() {
         edad = prompt("Introduce tu edad");
         //pregunta si elige cancelar
         if (edad == null) {
-            alert('Salió del ejercicio.')
+            alert('Salió del ejercicio.');
             console.log("Salió");
         }
         //si la edad es numero entero ejecuta
@@ -118,7 +118,7 @@ function entrada() {
                     sexo = prompt("Introduce tu sexo (hombre/mujer)");
                     //pregunta si cancela
                     if (sexo == null) {
-                        alert('Salió del ejercicio.')
+                        alert('Salió del ejercicio.');
                         console.log("Salió");
                     }
                     //pasa el texto ingresado a minuscula y pregunta si es 'hombre' o 'mujer'
@@ -137,9 +137,9 @@ function entrada() {
                     }
                     //mensaje al no ingresar 'hombre' o 'mujer'
                     else {
-                        sexo = "error"
+                        sexo = "error";
                         alert("Por favor introduce 'hombre' o 'mujer'.");
-                        console.log(sexo, " No se introdujo 'hombre' o 'mujer'.")
+                        console.log(sexo, " No se introdujo 'hombre' o 'mujer'.");
                     }
                     //pregunta por el sexo hasta que ingrese valor valido
                 } while (sexo == "error");
